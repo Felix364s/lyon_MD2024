@@ -2,7 +2,6 @@
 import AppRoutes from "./routes/AppRoutes";
 import BottomNav from "./components/BottomNav";
 import ThemeToggle from "./components/ThemeToggle"; 
-import lyonVideo from './videos/lyon.mp4';
 
 function App() {
   return (
@@ -13,13 +12,15 @@ function App() {
 
           <div className="absolute inset-0">
             <video
-              src={lyonVideo}
+              
+              src={'https://youtu.be/AR2IluWB1kU'}
               autoPlay
               loop
               muted
               playsInline
               className="w-full h-full object-cover"
             />
+            
           </div>
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/50 to-transparent"></div>
