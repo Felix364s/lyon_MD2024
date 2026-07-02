@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Bellecour Parking",
+    "latitude": 45.7579,
+    "longitude": 4.8320,
+    "availability": 120
+  },
+  {
+    "id": 2,
+    "name": "Part Dieu",
+    "latitude": 45.7602,
+    "longitude": 4.8598,
+    "availability": 42
+  },
+  {
+    "id": 3,
+    "name": "Confluence",
+    "latitude": 45.7430,
+    "longitude": 4.8150,
+    "availability": 8
+  }
+]

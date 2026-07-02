@@ -1,0 +1,14 @@
+{
+    "pages":{
+        "next":"?page=2",
+        "prev":null
+},
+    "events":[
+        {
+            "id":1,
+            "title":"Cycling",
+            "date":"2026-07-20",
+            "image":"cycling.jpg"
+        }
+    ]
+}
