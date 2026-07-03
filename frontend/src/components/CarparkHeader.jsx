@@ -11,17 +11,16 @@ export default function CarparkHeader() {
           </div>
 
           <div>
-            <h1 className="text-3xl font-bold text-slate-800 dark:text-white">
+            <h1 className="text-2xl font-bold text-slate-800 dark:text-white">
               Car Parks
             </h1>
 
-            <p className="text-slate-500 dark:text-slate-400">
+            <p className=" text-xs text-slate-500 dark:text-slate-400">
               Near your location
             </p>
           </div>
         </div>
       </div>
-
     </div>
   );
 }

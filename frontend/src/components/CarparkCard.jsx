@@ -43,7 +43,7 @@ export default function CarparkCard({
                 {label}
               </span>
             </div>
-
+  
             {/* Spaces + distancia */}
             <div className="flex items-center gap-4 mt-1">
               <p className="text-sm text-slate-500 dark:text-slate-400 flex items-center gap-1">

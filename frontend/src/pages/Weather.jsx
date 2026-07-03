@@ -39,7 +39,7 @@ export default function Weather() {
 
   return (
 
-  <div className="relative mt-10 w-full p-3">
+  <div className="relative mt-1 w-full p-3">
 
     <WeatherHeader> </WeatherHeader>
 

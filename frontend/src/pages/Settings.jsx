@@ -7,6 +7,7 @@ import SettingsHeader from "../components/SettingsHeader";
 export default function Settings() {
 
   return (
+
     <PageTransition>
       <div className="max-w-5xl mx-auto p-8">
 

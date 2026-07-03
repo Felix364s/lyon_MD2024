@@ -13,7 +13,7 @@ export default function WeatherDayCard({ day }) {
         overflow-hidden
 
         w-full
-        min-h-[420px]
+        min-h-[200px]
 
         flex flex-col items-center justify-center
 
@@ -47,8 +47,7 @@ export default function WeatherDayCard({ day }) {
         transition-all
         duration-500
 
-        px-10
-        py-20
+        p-5
       "
     >
       {/* Luz superior */}
@@ -110,7 +109,7 @@ export default function WeatherDayCard({ day }) {
       <p
         className="
           relative
-          text-xl
+          text-1xl
           font-semibold
           uppercase
           tracking-wider
@@ -146,7 +145,7 @@ export default function WeatherDayCard({ day }) {
           dark:via-slate-300
           dark:to-slate-500
 
-          my-7
+          my-3
         "
       />
 
@@ -154,7 +153,7 @@ export default function WeatherDayCard({ day }) {
       <div className="relative my-6">
         <div
           className="
-            w-10 h-10
+            w-1 h-1
             fill-none
             stroke-[#1c3e60]
             stroke-[1]

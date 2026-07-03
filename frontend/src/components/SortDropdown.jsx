@@ -53,7 +53,7 @@ export default function SortDropdown({ value, onChange }) {
         aria-expanded={open}
         className="
           flex items-center gap-2
-          px-3.5 py-2 rounded-lg
+          px-2 py-1 rounded-lg
           border border-neutral-300 dark:border-neutral-600
           bg-white dark:bg-neutral-800
           text-sm font-medium text-neutral-700 dark:text-neutral-200
@@ -100,7 +100,7 @@ export default function SortDropdown({ value, onChange }) {
                 onClick={() => select(option)}
                 className={`
                   flex items-center gap-3
-                  px-4 py-3 cursor-pointer
+                  px-2 py-1 cursor-pointer
                   ${
                     active
                       ? "bg-neutral-100 dark:bg-neutral-700"

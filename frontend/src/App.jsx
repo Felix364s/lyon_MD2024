@@ -13,7 +13,7 @@ function App() {
           <div className="absolute inset-0">
             <video
               
-              src={'https://youtu.be/AR2IluWB1kU'}
+              src={'https://res.cloudinary.com/dm169yxcl/video/upload/v1783089485/Video_Project_1_rkdcpc.mp4'}
               autoPlay
               loop
               muted
